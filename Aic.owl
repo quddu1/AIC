@@ -1,0 +1,438 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/naman/ontologies/2024/10Intelligent_Tutoring_System"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/naman/ontologies/2024/10Intelligent_Tutoring_System">
+    <Prefix name="" IRI="http://www.semanticweb.org/naman/ontologies/2024/10Intelligent_Tutoring_System/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#AI_Bias"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AI_Ethics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AI_Impact_on_Society"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AI_Systems"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AI_and_Human_Rights"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AI_in_Robotics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Access_Control"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Anonymization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Autonomous_AI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Behavioral_Tracking_Systems"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Breach_Detection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Consent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Data_Aggregation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Data_Masking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Data_Minimization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Data_Privacy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Data_Protection_Laws"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Data_Retention"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Data_Security"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Encryption"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Facial_Recognition_Systems"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Global_Laws"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Informed_Consent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Personalized_AI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Purpose_Limitation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Recommendation_Systems"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Regional_Laws"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Self-Driving_Cars"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Specialized_Laws"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Surveillance_AI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Targeted_Advertising"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CCPA_(California_Consumer_Privacy_Act)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#COPPA_(Children’s_Online_Privacy_Protection_Act)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GDPR_(General_Data_Protection_Regulation)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HIPAA_(Health_Insurance_Portability_and_Accountability_Act)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Opt-In/Opt-Out"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PDPA_(Personal_Data_Protection_Act)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PIPEDA_(Personal_Information_Protection_and_Electronic_Documents_Act)"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_data_privacy_issue"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_ethical_principle"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_compliant_with"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_part_of"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_consent_type"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_privacy_impact"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_regulation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_risk_level"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AI_Bias"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AI_Impact_on_Society"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AI_and_Human_Rights"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Anonymization"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Autonomous_AI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CCPA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Consent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Data_Minimization"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Data_Security"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GDPR"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HIPAA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PIPEDA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Personalized_AI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Surveillance_AI"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/naman/ontologies/2024/Ai_education#has_duration"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/naman/ontologies/2024/Ai_education#has_subclass"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#AI_Bias"/>
+        <Class IRI="#AI_Ethics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AI_Impact_on_Society"/>
+        <Class IRI="#AI_Ethics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AI_and_Human_Rights"/>
+        <Class IRI="#AI_Ethics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AI_in_Robotics"/>
+        <Class IRI="#Autonomous_AI"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Access_Control"/>
+        <Class IRI="#Data_Security"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anonymization"/>
+        <Class IRI="#Data_Privacy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Autonomous_AI"/>
+        <Class IRI="#AI_Systems"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Behavioral_Tracking_Systems"/>
+        <Class IRI="#Surveillance_AI"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Breach_Detection"/>
+        <Class IRI="#Data_Security"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Consent"/>
+        <Class IRI="#Data_Privacy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Data_Aggregation"/>
+        <Class IRI="#Anonymization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Data_Masking"/>
+        <Class IRI="#Anonymization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Data_Minimization"/>
+        <Class IRI="#Data_Privacy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Data_Retention"/>
+        <Class IRI="#Data_Minimization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Data_Security"/>
+        <Class IRI="#Data_Privacy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Encryption"/>
+        <Class IRI="#Data_Security"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Facial_Recognition_Systems"/>
+        <Class IRI="#Surveillance_AI"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Global_Laws"/>
+        <Class IRI="#Data_Protection_Laws"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Informed_Consent"/>
+        <Class IRI="#Consent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Personalized_AI"/>
+        <Class IRI="#AI_Systems"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Purpose_Limitation"/>
+        <Class IRI="#Data_Minimization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Recommendation_Systems"/>
+        <Class IRI="#Personalized_AI"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Regional_Laws"/>
+        <Class IRI="#Data_Protection_Laws"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Self-Driving_Cars"/>
+        <Class IRI="#Autonomous_AI"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Specialized_Laws"/>
+        <Class IRI="#Data_Protection_Laws"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Surveillance_AI"/>
+        <Class IRI="#AI_Systems"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Targeted_Advertising"/>
+        <Class IRI="#Personalized_AI"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CCPA_(California_Consumer_Privacy_Act)"/>
+        <Class IRI="#Global_Laws"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#COPPA_(Children’s_Online_Privacy_Protection_Act)"/>
+        <Class IRI="#Specialized_Laws"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GDPR_(General_Data_Protection_Regulation)"/>
+        <Class IRI="#Global_Laws"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HIPAA_(Health_Insurance_Portability_and_Accountability_Act)"/>
+        <Class IRI="#Specialized_Laws"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Opt-In/Opt-Out"/>
+        <Class IRI="#Consent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PDPA_(Personal_Data_Protection_Act)"/>
+        <Class IRI="#Regional_Laws"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PIPEDA_(Personal_Information_Protection_and_Electronic_Documents_Act)"/>
+        <Class IRI="#Regional_Laws"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#AI_Ethics"/>
+        <NamedIndividual IRI="#AI_Bias"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AI_Ethics"/>
+        <NamedIndividual IRI="#AI_Impact_on_Society"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AI_Ethics"/>
+        <NamedIndividual IRI="#AI_and_Human_Rights"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Data_Privacy"/>
+        <NamedIndividual IRI="#Anonymization"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AI_Systems"/>
+        <NamedIndividual IRI="#Autonomous_AI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Data_Protection_Laws"/>
+        <NamedIndividual IRI="#CCPA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Data_Privacy"/>
+        <NamedIndividual IRI="#Consent"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Data_Privacy"/>
+        <NamedIndividual IRI="#Data_Minimization"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Data_Privacy"/>
+        <NamedIndividual IRI="#Data_Security"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Data_Protection_Laws"/>
+        <NamedIndividual IRI="#GDPR"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Data_Protection_Laws"/>
+        <NamedIndividual IRI="#HIPAA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Data_Protection_Laws"/>
+        <NamedIndividual IRI="#PIPEDA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AI_Systems"/>
+        <NamedIndividual IRI="#Personalized_AI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AI_Systems"/>
+        <NamedIndividual IRI="#Surveillance_AI"/>
+    </ClassAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_data_privacy_issue"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_ethical_principle"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#is_compliant_with"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#is_part_of"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.semanticweb.org/naman/ontologies/2024/Ai_education#has_subclass"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_consent_type"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_privacy_impact"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_regulation"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_risk_level"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/naman/ontologies/2024/Ai_education#has_duration"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
